@@ -8,8 +8,6 @@ void main() {
 	_int8  c[8] = { 14,8,2,3,-32,5,6,9 };
 	_int16 d[8] = { 2,0,-2,8,4,5,6,0 };
 	_int16 f[8];
-	int vfvf;
-	bool t;
 	_asm {
 
 		movq mm0, qword ptr[a]
